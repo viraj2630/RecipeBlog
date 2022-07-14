@@ -1,0 +1,56 @@
+:root{
+--bs-font-sans-serif:'Rubik',sans-serif;
+
+}
+
+body{
+    background-image: url('/img/i-like-food.svg');
+    background-color:rgb(243, 243, 243);
+        
+}
+
+
+.container-xxl{
+    max-width: 1100px;
+}
+
+a{
+    color:var(--bs-font-sans-serif);
+}
+
+/* category card */
+.category__link{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    transition: 250ms all;
+}
+.category__link:hover{
+transform: scale(1.1);
+}
+
+.category__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px rgba(0,0, 0,.15);
+    overflow: hidden;
+    border-radius: 8px;
+
+}
+
+.category__img img{
+    padding-bottom: 40px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.pt-1{
+        padding-top: 3.25rem !important;
+}
+
+.category__img--large{
+height: 330px;
+}
